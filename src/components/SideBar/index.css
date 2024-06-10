@@ -1,0 +1,56 @@
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.sidebar-logo {
+  width: 150px;
+  height: 100px;
+}
+.sidebar-header h1 {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Offside", sans-serif;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 10px;
+}
+
+.sidebar ul li a:hover {
+  background-color: rgba(236, 164, 8, 0.1);
+  transform: translateY(-3px);
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  color: rgb(166, 129, 60);
+}
