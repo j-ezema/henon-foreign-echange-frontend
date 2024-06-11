@@ -52,7 +52,7 @@ const HomePage = ({ settings }) => {
     const fetchRates = async (base_currency) => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/retrieve-rates/",
+          "https://henon-fx-tracker-app-679990af8b3b.herokuapp.com//api/retrieve-rates/",
           {
             params: {
               base_currency,
