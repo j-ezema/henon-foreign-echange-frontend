@@ -16,3 +16,14 @@
   color: black;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .chart h3 {
+    font-size: 1.2em;
+  }
+}

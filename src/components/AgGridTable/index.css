@@ -50,5 +50,30 @@
 }
 
 .ag-theme-alpine .ag-icon {
-  color: #000000; 
+  color: #000000;
+}
+
+@media (max-width: 480px) {
+  .ag-theme-alpine.custom-ag-theme .ag-header-cell-label {
+    font-size: 0.8em;
+    padding: 3px;
+  }
+
+  .ag-theme-alpine.custom-ag-theme .ag-cell {
+    font-size: 0.8em;
+    padding: 3px;
+  }
+
+  .ag-theme-alpine.custom-ag-theme .ag-header {
+    font-size: 0.9em;
+  }
+
+  .ag-theme-alpine.custom-ag-theme .ag-cell {
+    font-size: 0.8em;
+  }
+
+  .ag-theme-alpine.custom-ag-theme {
+    --ag-header-background-color: rgb(117, 79, 41);
+    --ag-row-hover-background-color: rgba(166, 129, 60, 0.1);
+  }
 }

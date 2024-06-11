@@ -54,3 +54,27 @@
   margin-right: 10px;
   color: rgb(166, 129, 60);
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar ul li a {
+    font-size: 20px;
+  }
+
+  .sidebar-logo {
+    width: 120px;
+    height: 80px;
+  }
+
+  .homepage {
+    margin-left: 200px;
+  }
+
+  .settings-page {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+  }
+}

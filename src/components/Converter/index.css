@@ -119,3 +119,32 @@
   font-weight: bold;
   color: rgb(166, 129, 60);
 }
+
+@media (max-width: 768px) {
+  .converter-form {
+    padding: 15px;
+  }
+
+  .converter-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .converter-form .form-group label {
+    font-size: 1em;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .convert-button,
+  .clear-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .converter-result {
+    font-size: 1.2em;
+  }
+}
